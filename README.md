@@ -37,6 +37,11 @@ En este proyecto, `main` actúa como el trunk principal.
 - `chore/<nombre>`: tareas de mantenimiento, documentación o configuración.
 - `hotfix/<nombre>`: correcciones urgentes sobre `main`.
 
+## Ejemplo de cambio para PR
+
+Este proyecto ya tiene una mejora lista en la rama actual `feature/branch`.
+El cambio agrega una nueva función `subtract` a `src/math.js` y una prueba asociada.
+
 ## Pull Request ideal
 
 - Título claro y conciso.

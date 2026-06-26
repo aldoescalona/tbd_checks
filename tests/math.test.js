@@ -1,4 +1,4 @@
-import { sum, multiply } from '../src/math.js'
+import { sum, multiply, subtract } from '../src/math.js'
 
 describe('math functions', () => {
   test('sum should add two numbers', () => {
@@ -7,6 +7,10 @@ describe('math functions', () => {
 
   test('multiply should multiply two numbers', () => {
     expect(multiply(4, 5)).toBe(20)
+  })
+
+  test('subtract should subtract two numbers', () => {
+    expect(subtract(10, 4)).toBe(6)
   })
 
   test('sum should handle negative values', () => {
